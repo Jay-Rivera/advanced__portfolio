@@ -14,7 +14,7 @@ function moveBackground(event) {
     }
 }
 
-function toggYeContrast() {
+function toggleContrast() {
   contrastToggle = !contrastToggle;
   if (contrastToggle) {
     document.body.classList += " dark-theme";
